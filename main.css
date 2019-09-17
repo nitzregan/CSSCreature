@@ -1,0 +1,96 @@
+html{
+    background-image:url(https://i.imgur.com/8mUeio1.jpg);
+   background-size: cover; 
+ }
+ 
+ .wrapper {
+   margin: 10;
+ }
+ 
+ .body {
+     margin: 50px;
+     width: 300px;
+     height: 300px;
+     border: solid 2px #FCB9DE;
+     background-color: #FCB9DE;
+     border-radius: 300px;
+ }
+ 
+ .lefteye {
+     width: 20px;
+     height: 60px;
+     border: solid 1px #092681;
+     border-radius: 30px;
+     z-index: 1;
+     position: relative;
+     left: 6em;
+     top: 5em;
+     background-color: #092681;
+ }
+ 
+ .righteye {
+     width: 20px;
+     height: 60px;
+     border: solid 1px #092681;
+     border-radius: 30px;
+     z-index: 1;
+     position: relative;
+     left: 10em;
+     top: 1em;
+     background-color: #092681;
+ }
+ 
+ .mouth {
+     width: 75px;
+     height: 60px;
+     border: solid 1px #81092A;
+     border-radius: 20px 20px 45px 45px;
+     margin: 16px;
+     position: relative;
+     top: 1em;
+     left: 5em;
+     background-color: #81092A;
+ }
+ 
+ #inner-right {
+     width: 15px;
+     height: 30px;
+     border: solid 1px white;
+     border-radius: 30px;
+     z-index: 1;
+     position: relative;
+     background-color: white;
+ }
+ 
+ #inner-left {
+     width: 15px;
+     height: 30px;
+     border: solid 1px white;
+     border-radius: 30px;
+     z-index: 1;
+     position: relative;
+     background-color: white;
+ }
+ 
+ #tongue {
+     width: 60px;
+     height: 45px;
+     border: solid 1px #C8325B;
+     border-radius: 20px 20px 45px 45px;
+     margin: 16px;
+     position: relative;
+     left: -1em;
+     bottom: .25em;
+     background-color: #C8325B;
+ }
+ 
+ /*I don't know why this won't show up*/
+ #rightarm {
+     width: 75px;
+     height: 60px;
+     border: solid 1px #FCB9DE;
+     border-radius: 45px 45px 20px 20px;
+     z-index: 2;
+     position: relative;
+     background-color: #FCB9DE;
+ }
